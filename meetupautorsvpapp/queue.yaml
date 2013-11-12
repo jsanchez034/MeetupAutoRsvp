@@ -1,0 +1,4 @@
+total_storage_limit: 120M
+queue:
+- name: futurersvp
+  rate: 10/s

@@ -1,0 +1,4 @@
+cron:
+- description: daily auto RSVP Meetup Job
+  url: /rsvpmyevents
+  schedule: every day 12:00
