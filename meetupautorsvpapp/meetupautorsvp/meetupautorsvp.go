@@ -17,7 +17,7 @@ import (
 const apikey string = ""
 const memberid string = ""
 
-type MeetupMeta struct 
+type MeetupMeta struct {
 	Lon         string
 	Count       int64
 	Signed_url  string

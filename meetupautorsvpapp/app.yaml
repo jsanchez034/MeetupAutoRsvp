@@ -4,11 +4,11 @@ runtime: go
 api_version: go1
 
 handlers:
-- url: /.*
-  script: _go_app
 - url: /rsvpmyevents
   script: _go_app
   login: admin
 - url: /rsvpeventworker
   script: _go_app
   login: admin
+- url: /.*
+  script: _go_app
